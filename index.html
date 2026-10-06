@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Êtes-vous compatible avec Arnaud Collot ? — Municipales 2026 Épinay-sur-Orge</title>
+<meta name="description" content="Découvrez en 12 questions si vos priorités sont en phase avec le programme LIPE d'Arnaud Collot — élections municipales Épinay-sur-Orge 15 mars 2026." />
+<meta name="keywords" content="Arnaud Collot, LIPE, Épinay-sur-Orge, municipales 2026, élections municipales, programme, Essonne" />
+<meta name="author" content="LIPE — Libres et Indépendants pour Épinay" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://quizz.arnaudcollot.com" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Êtes-vous compatible avec Arnaud Collot ?",
+  "description": "Quiz de compatibilité avec le programme LIPE pour les élections municipales d'Épinay-sur-Orge — 15 mars 2026.",
+  "url": "https://quizz.arnaudcollot.com",
+  "author": {
+    "@type": "Person",
+    "name": "Arnaud Collot",
+    "url": "https://www.arnaudcollot.fr"
+  },
+  "about": {
+    "@type": "Event",
+    "name": "Élections municipales Épinay-sur-Orge 2026",
+    "startDate": "2026-03-15",
+    "location": {
+      "@type": "Place",
+      "name": "Épinay-sur-Orge",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Épinay-sur-Orge",
+        "postalCode": "91360",
+        "addressCountry": "FR"
+      }
+    }
+  }
+}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://quizz.arnaudcollot.com" />
+<meta property="og:title" content="Êtes-vous compatible avec Arnaud Collot ?" />
+<meta property="og:description" content="Découvrez en 12 questions si vos priorités sont en phase avec le programme LIPE pour Épinay-sur-Orge — élections municipales 15 mars 2026." />
+<meta property="og:image" content="https://quizz.arnaudcollot.com/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Êtes-vous compatible avec Arnaud Collot ?" />
+<meta name="twitter:description" content="Faites le test : 12 questions pour découvrir votre profil citoyen — municipales Épinay-sur-Orge 2026." />
+<meta name="twitter:image" content="https://quizz.arnaudcollot.com/og-image.jpg" />
+<!-- iOS Web App -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Quiz LIPE" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<style>
+:root {
+  --bleu: #1a3a6e;
+  --bleu-clair: #2255a4;
+  --rouge: #d93025;
+  --or: #f5a623;
+  --creme: #fdf8f0;
+  --gris: #f0eee8;
+  --texte: #1a1a2e;
+  --blanc: #ffffff;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'DM Sans', sans-serif; background: var(--creme); color: var(--texte); min-height: 100vh; overflow-x: hidden; }
+
+/* HEADER */
+.header { background: var(--bleu); padding: 12px 18px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 16px rgba(0,0,0,0.2); }
+.header-logo { font-family: 'Syne', sans-serif; font-weight: 800; color: var(--blanc); font-size: 0.95rem; letter-spacing: 0.04em; }
+.header-logo span { color: var(--or); }
+.header-site { font-size: 0.72rem; color: rgba(255,255,255,0.45); }
+
+.progress-bar-container { background: rgba(255,255,255,0.12); height: 3px; width: 100%; position: fixed; top: 48px; left: 0; z-index: 99; }
+.progress-bar { height: 100%; background: var(--or); transition: width 0.5s cubic-bezier(.4,0,.2,1); width: 0%; }
+
+/* INTRO */
+#screen-intro { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 20px 20px 28px; background: linear-gradient(155deg, #0f2550 0%, #1a3a6e 50%, #2255a4 100%); position: relative; overflow: hidden; }
+#screen-intro::before { content: ''; position: absolute; width: 600px; height: 600px; border-radius: 50%; background: rgba(245,166,35,0.06); top: -200px; right: -200px; pointer-events: none; }
+.intro-badge { display: inline-block; background: var(--or); color: var(--bleu); font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; padding: 5px 14px; border-radius: 99px; margin-bottom: 16px; animation: fadeDown 0.6s ease both; }
+.intro-title { font-family: 'Syne', sans-serif; font-weight: 800; font-size: clamp(1.75rem, 6vw, 3rem); color: var(--blanc); line-height: 1.15; max-width: 640px; margin-bottom: 12px; animation: fadeDown 0.7s 0.1s ease both; }
+.intro-title span { color: var(--or); }
+.intro-sub { color: rgba(255,255,255,0.68); font-size: 0.9rem; max-width: 420px; line-height: 1.65; margin-bottom: 24px; animation: fadeDown 0.7s 0.2s ease both; font-weight: 300; }
+.intro-stats { display: flex; gap: 8px; justify-content: center; margin-bottom: 24px; animation: fadeDown 0.7s 0.3s ease both; }
+.intro-stat { background: rgba(255,255,255,0.09); border: 1px solid rgba(255,255,255,0.13); border-radius: 12px; padding: 10px 14px; text-align: center; }
+.intro-stat strong { display: block; font-family: 'Syne', sans-serif; font-size: 1.3rem; font-weight: 800; color: var(--or); }
+.intro-stat span { font-size: 0.68rem; color: rgba(255,255,255,0.55); }
+.btn-start { background: var(--or); color: var(--bleu); font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.95rem; border: none; padding: 14px 36px; border-radius: 99px; cursor: pointer; transition: transform 0.2s, box-shadow 0.2s; animation: fadeDown 0.7s 0.35s ease both; box-shadow: 0 8px 28px rgba(245,166,35,0.35); }
+.btn-start:hover { transform: translateY(-2px); box-shadow: 0 12px 36px rgba(245,166,35,0.48); }
+
+/* QUIZ */
+#screen-quiz { display: none; min-height: 100vh; padding: 14px 16px 50px; }
+.quiz-wrapper { max-width: 640px; margin: 0 auto; }
+.q-counter { font-family: 'Syne', sans-serif; font-size: 0.7rem; letter-spacing: 0.12em; color: var(--bleu-clair); font-weight: 700; text-transform: uppercase; margin-bottom: 7px; }
+.q-type-badge { display: inline-flex; align-items: center; gap: 6px; background: var(--or); color: var(--bleu); font-size: 0.67rem; font-weight: 700; padding: 5px 12px; border-radius: 99px; margin-bottom: 12px; }
+.q-text { font-family: 'Syne', sans-serif; font-weight: 700; font-size: clamp(1.05rem, 3vw, 1.45rem); line-height: 1.32; color: var(--texte); margin-bottom: 6px; }
+.q-context { font-size: 0.8rem; color: #888; margin-bottom: 16px; font-weight: 300; font-style: italic; line-height: 1.5; }
+.q-anim { animation: fadeUp 0.35s ease both; }
+
+/* CHOICES */
+.choices { display: flex; flex-direction: column; gap: 8px; }
+.choice-btn { background: var(--blanc); border: 2px solid #e2dfd7; border-radius: 12px; padding: 11px 14px; text-align: left; cursor: pointer; transition: all 0.18s; display: flex; align-items: center; gap: 10px; font-family: 'DM Sans', sans-serif; font-size: 0.86rem; line-height: 1.4; color: var(--texte); }
+.choice-btn:hover:not(.disabled) { border-color: var(--bleu-clair); transform: translateX(2px); background: #f5f8ff; }
+.choice-letter { min-width: 26px; height: 26px; background: var(--gris); border-radius: 6px; display: flex; align-items: center; justify-content: center; font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.72rem; color: var(--bleu); flex-shrink: 0; transition: all 0.18s; }
+.choice-btn:hover:not(.disabled) .choice-letter { background: var(--bleu); color: var(--blanc); }
+.choice-btn.disabled { cursor: default; }
+/* Multi-select : case à cocher visuelle */
+.choice-btn.multi-mode { cursor: pointer; }
+.choice-btn.selected { border-color: var(--bleu); background: #eef3fb; }
+.choice-btn.selected .choice-letter { background: var(--bleu); color: var(--blanc); }
+.multi-validate-wrap { margin-top: 10px; }
+/* Feedback LIPE renforcé */
+.feedback-bubble { margin-top: 10px; padding: 10px 13px; border-radius: 10px; font-size: 0.82rem; line-height: 1.55; display: none; animation: fadeUp 0.3s ease; }
+.feedback-bubble.good { background: #e8f5e9; border-left: 4px solid #2e7d32; color: #1b5e20; }
+.feedback-bubble.bad { background: #fce4ec; border-left: 4px solid #c62828; color: #7f0000; }
+.feedback-bubble.neutral { background: #e3f2fd; border-left: 4px solid #1565c0; color: #0d3c7a; }
+.fb-lipe-block { margin-top: 8px; padding: 8px 11px; background: #1a3a6e; color: #fff; border-radius: 8px; font-size: 0.8rem; line-height: 1.5; }
+.fb-lipe-block strong { display: block; font-family: 'Syne', sans-serif; font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; color: #f5a623; margin-bottom: 4px; }
+/* Réponse choisie correcte (LIPE) */
+.choice-btn.correct { border-color: #2e7d32; background: #f0faf0; }
+.choice-btn.correct .choice-letter { background: #2e7d32; color: var(--blanc); }
+/* Autre bonne réponse (score ≥ 0.7, non choisie) */
+.choice-btn.also-good { border-color: #66bb6a; background: #f6fff6; }
+.choice-btn.also-good .choice-letter { background: #66bb6a; color: var(--blanc); }
+/* Réponse choisie incorrecte */
+.choice-btn.incorrect { border-color: var(--rouge); background: #fff0f0; }
+.choice-btn.incorrect .choice-letter { background: var(--rouge); color: var(--blanc); }
+/* Badge LIPE sur la réponse officielle */
+.lipe-badge { display: inline-flex; align-items: center; gap: 4px; background: #2e7d32; color: #fff; font-family: 'Syne', sans-serif; font-size: 0.6rem; font-weight: 700; padding: 2px 8px; border-radius: 99px; margin-left: auto; white-space: nowrap; flex-shrink: 0; }
+
+/* SLIDER */
+.slider-wrapper { background: var(--blanc); border: 2px solid #e2dfd7; border-radius: 14px; padding: 18px; }
+.slider-labels { display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.75rem; color: #999; }
+input[type=range] { width: 100%; height: 6px; -webkit-appearance: none; background: #e0ddd5; border-radius: 99px; outline: none; cursor: pointer; margin-bottom: 10px; }
+input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 24px; height: 24px; border-radius: 50%; background: var(--bleu); box-shadow: 0 2px 8px rgba(34,85,164,0.35); cursor: pointer; transition: transform 0.15s; }
+input[type=range]::-webkit-slider-thumb:hover { transform: scale(1.2); }
+.slider-value-display { text-align: center; font-family: 'Syne', sans-serif; font-size: 1.3rem; font-weight: 800; color: var(--bleu); }
+.slider-hint { text-align: center; font-size: 0.75rem; color: #bbb; margin-top: 3px; }
+
+
+
+
+.btn-next { display: none; margin-top: 14px; background: var(--bleu); color: var(--blanc); font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.88rem; border: none; padding: 13px 28px; border-radius: 99px; cursor: pointer; transition: all 0.2s; box-shadow: 0 4px 14px rgba(26,58,110,0.22); width: 100%; }
+.btn-next:hover { transform: translateY(-2px); }
+.btn-validate { display: block; width: 100%; margin-top: 12px; background: var(--bleu); color: var(--blanc); font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.88rem; border: none; padding: 13px 28px; border-radius: 99px; cursor: pointer; transition: all 0.2s; }
+.btn-validate:hover { transform: translateY(-2px); }
+.btn-validate:disabled { opacity: 0.5; cursor: default; transform: none; }
+
+/* ============================================================
+   RÉSULTAT — mobile-first, scroll minimal
+   ============================================================ */
+#screen-result { display: none; min-height: 100vh; padding: 14px 14px 36px; }
+.result-wrapper { max-width: 640px; margin: 0 auto; }
+
+/* Hero : emoji + titre + badge + jauge dans un seul bloc sombre */
+.result-hero { background: linear-gradient(150deg, #0f2550, #1a3a6e); border-radius: 20px; padding: 20px 18px 18px; margin-bottom: 12px; text-align: center; animation: fadeUp 0.5s ease both; }
+.result-emoji { font-size: 2.4rem; display: block; margin-bottom: 8px; animation: bounceIn 0.55s ease; }
+.result-title { font-family: 'Syne', sans-serif; font-size: clamp(1.1rem, 3.5vw, 1.7rem); font-weight: 800; color: var(--blanc); margin-bottom: 6px; line-height: 1.2; }
+.result-badge { display: inline-block; background: var(--or); color: var(--bleu); font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 4px 12px; border-radius: 99px; margin-bottom: 14px; }
+.gauge-label { font-size: 0.62rem; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 6px; }
+.gauge-track { background: rgba(255,255,255,0.15); height: 10px; border-radius: 99px; overflow: hidden; margin-bottom: 5px; }
+.gauge-fill { height: 100%; border-radius: 99px; transition: width 1.6s cubic-bezier(.4,0,.2,1); width: 0%; }
+.gauge-row { display: flex; align-items: baseline; justify-content: center; gap: 6px; margin-bottom: 4px; }
+.gauge-percent { font-family: 'Syne', sans-serif; font-size: 2.8rem; font-weight: 800; color: var(--blanc); line-height: 1; }
+.gauge-percent span { font-size: 1.4rem; }
+.gauge-caption { font-size: 0.78rem; color: rgba(255,255,255,0.65); line-height: 1.5; }
+
+/* Accordéon profil citoyen */
+.accordion { background: var(--blanc); border-radius: 14px; margin-bottom: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); animation: fadeUp 0.4s 0.1s ease both; overflow: hidden; }
+.accordion-header { display: flex; align-items: center; justify-content: space-between; padding: 13px 16px; cursor: pointer; user-select: none; -webkit-tap-highlight-color: transparent; }
+.accordion-label { font-family: 'Syne', sans-serif; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--bleu-clair); }
+.accordion-chevron { font-size: 0.72rem; color: #bbb; transition: transform 0.25s; display: inline-block; }
+.accordion-chevron.open { transform: rotate(180deg); }
+.accordion-body { max-height: 0; overflow: hidden; transition: max-height 0.35s ease; }
+.accordion-body.open { max-height: 800px; }
+.accordion-inner { padding: 0 16px 14px; }
+.psycho-traits { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }
+.psycho-trait { background: var(--gris); color: var(--texte); font-size: 0.72rem; padding: 4px 10px; border-radius: 99px; font-weight: 500; }
+.psycho-trait.hl { background: var(--bleu); color: var(--blanc); }
+.psycho-desc { font-size: 0.84rem; line-height: 1.65; color: #555; font-weight: 300; }
+
+/* Thèmes : scroll horizontal sur mobile */
+.themes-wrap { margin-bottom: 10px; animation: fadeUp 0.4s 0.18s ease both; }
+.themes-label { font-family: 'Syne', sans-serif; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--bleu-clair); margin-bottom: 8px; }
+.themes-scroll { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; -webkit-overflow-scrolling: touch; scrollbar-width: none; scroll-snap-type: x mandatory; }
+.themes-scroll::-webkit-scrollbar { display: none; }
+.theme-card { background: var(--blanc); border-radius: 12px; padding: 10px 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); flex: 0 0 120px; scroll-snap-align: start; }
+.theme-card-label { font-size: 0.68rem; color: #aaa; margin-bottom: 5px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.theme-card-bar { background: #eee; height: 5px; border-radius: 99px; overflow: hidden; margin-bottom: 4px; }
+.theme-card-fill { height: 100%; border-radius: 99px; transition: width 1.6s cubic-bezier(.4,0,.2,1); width: 0%; }
+.theme-card-score { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.8rem; }
+
+/* Message */
+.message-card { background: var(--bleu); color: var(--blanc); border-radius: 14px; padding: 15px 16px; margin-bottom: 10px; text-align: left; animation: fadeUp 0.4s 0.24s ease both; }
+.message-card-title { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--or); margin-bottom: 7px; }
+.message-card-text { font-size: 0.85rem; line-height: 1.62; color: rgba(255,255,255,0.88); font-weight: 300; }
+
+/* CTA */
+.cta-group { display: flex; gap: 8px; margin-bottom: 12px; animation: fadeUp 0.4s 0.3s ease both; }
+.btn-cta-primary { flex: 1; background: var(--bleu); color: var(--blanc); font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.84rem; border: none; padding: 13px 14px; border-radius: 99px; cursor: pointer; transition: all 0.2s; text-decoration: none; display: inline-block; text-align: center; box-shadow: 0 4px 14px rgba(26,58,110,0.22); }
+.btn-cta-primary:hover { transform: translateY(-2px); }
+.btn-cta-secondary { flex: 1; background: transparent; color: var(--bleu); font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.84rem; border: 2px solid var(--bleu); padding: 11px 14px; border-radius: 99px; cursor: pointer; transition: all 0.2s; text-align: center; }
+.btn-cta-secondary:hover { background: var(--bleu); color: var(--blanc); }
+.result-footnote { font-size: 0.7rem; color: #bbb; line-height: 1.6; text-align: center; animation: fadeUp 0.4s 0.35s ease both; }
+
+/* Réunion publique */
+.reunion-card { display: flex; align-items: center; gap: 14px; background: linear-gradient(135deg, #1a3a6e, #2255a4); border-radius: 14px; padding: 14px 16px; margin-bottom: 10px; animation: fadeUp 0.4s 0.26s ease both; }
+.reunion-icon { font-size: 1.8rem; flex-shrink: 0; }
+.reunion-title { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 0.8rem; color: var(--or); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 2px; }
+.reunion-date { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1rem; color: var(--blanc); margin-bottom: 1px; }
+.reunion-lieu { font-size: 0.76rem; color: rgba(255,255,255,0.65); }
+
+/* Partage */
+.share-block { margin-bottom: 12px; animation: fadeUp 0.4s 0.32s ease both; }
+.fb-suggest { background: #e7f0fd; border: 1px solid #b8d0f5; border-radius: 12px; padding: 11px 13px; margin-bottom: 10px; }
+.fb-suggest-label { font-family: 'Syne', sans-serif; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #1877f2; margin-bottom: 6px; }
+.fb-suggest-text { font-size: 0.82rem; line-height: 1.55; color: #333; margin-bottom: 8px; white-space: pre-line; }
+.fb-copy-btn { background: #1877f2; color: #fff; border: none; border-radius: 99px; padding: 7px 16px; font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.72rem; cursor: pointer; transition: opacity 0.15s; }
+.fb-copy-btn:hover { opacity: 0.85; }
+.share-label { font-family: 'Syne', sans-serif; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #aaa; margin-bottom: 8px; text-align: center; }
+.share-buttons { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+.share-btn { display: inline-flex; align-items: center; gap: 6px; padding: 9px 14px; border-radius: 99px; border: none; cursor: pointer; font-family: 'Syne', sans-serif; font-weight: 700; font-size: 0.75rem; text-decoration: none; transition: transform 0.15s, opacity 0.15s; }
+.share-btn:hover { transform: translateY(-2px); opacity: 0.88; }
+.share-btn.fb { background: #1877f2; color: #fff; }
+.share-btn.tw { background: #000; color: #fff; }
+.share-btn.wa { background: #25d366; color: #fff; }
+.share-btn.mail { background: var(--gris); color: var(--bleu); }
+
+/* Desktop */
+@media (min-width: 600px) {
+  .header { padding: 14px 24px; }
+  .header-logo { font-size: 1.05rem; }
+  #screen-intro { padding: 40px 24px 50px; }
+  #screen-quiz { padding: 24px 24px 60px; }
+  #screen-result { padding: 24px 20px 50px; }
+  .result-hero { padding: 28px 28px 22px; }
+  .result-emoji { font-size: 3rem; }
+  .gauge-percent { font-size: 3.2rem; }
+  .themes-scroll { flex-wrap: wrap; overflow-x: visible; }
+  .theme-card { flex: 1 1 calc(33% - 6px); min-width: 110px; }
+  .cta-group { gap: 12px; }
+  .choice-btn { font-size: 0.92rem; padding: 13px 16px; }
+  .q-text { font-size: clamp(1.15rem, 2.8vw, 1.5rem); }
+}
+
+@keyframes fadeDown { from { opacity:0; transform:translateY(-16px); } to { opacity:1; transform:translateY(0); } }
+@keyframes fadeUp { from { opacity:0; transform:translateY(14px); } to { opacity:1; transform:translateY(0); } }
+@keyframes bounceIn { 0%{transform:scale(0);opacity:0} 60%{transform:scale(1.16);opacity:1} 100%{transform:scale(1)} }
+</style>
+<!-- Google tag (gtag.js) -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9ZJ7MEZS54"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+  gtag('config', 'G-9ZJ7MEZS54');
+
+</script>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-logo">LIPE <span>·</span> Épinay-sur-Orge</div>
+  <div class="header-site">arnaudcollot.fr</div>
+</header>
+<div class="progress-bar-container"><div class="progress-bar" id="progressBar"></div></div>
+
+<section id="screen-intro">
+  <div class="intro-badge">🗳️ Municipales 2026 · Épinay-sur-Orge</div>
+  <h1 class="intro-title">Êtes-vous compatible avec <span>Arnaud Collot</span> ?</h1>
+  <p class="intro-sub">12 questions tirées au sort parmi 25 pour découvrir si vos priorités sont en phase avec le programme LIPE — et quel profil citoyen vous êtes.</p>
+  <div class="intro-stats">
+    <div class="intro-stat"><strong>12</strong><span>questions</span></div>
+    <div class="intro-stat"><strong>~4 min</strong><span>environ</span></div>
+    <div class="intro-stat"><strong>6</strong><span>profils</span></div>
+  </div>
+  <button class="btn-start" onclick="startQuiz()">Commencer le test →</button>
+</section>
+
+<section id="screen-quiz">
+  <div class="quiz-wrapper">
+    <div class="q-counter" id="qCounter"></div>
+    <div class="q-type-badge" id="qTypeBadge"><span id="qIcon">🎯</span>&nbsp;<span id="qTypeLabel">Choix multiple</span></div>
+    <h2 class="q-text q-anim" id="qText"></h2>
+    <p class="q-context q-anim" id="qContext"></p>
+    <div id="qAnswerZone" class="q-anim"></div>
+    <div class="feedback-bubble" id="feedbackBubble"></div>
+    <button class="btn-next" id="btnNext" onclick="nextQuestion()">Question suivante →</button>
+  </div>
+</section>
+
+<section id="screen-result">
+  <div class="result-wrapper">
+
+    <!-- Hero compact -->
+    <div class="result-hero">
+      <span class="result-emoji" id="resultEmoji"></span>
+      <h2 class="result-title" id="resultTitle"></h2>
+      <div class="result-badge" id="resultBadge"></div>
+      <div class="gauge-label">Compatibilité avec le programme LIPE</div>
+      <div class="gauge-track"><div class="gauge-fill" id="gaugeFill"></div></div>
+      <div class="gauge-row"><div class="gauge-percent" id="gaugePercent">0<span>%</span></div></div>
+      <div class="gauge-caption" id="gaugeCaption"></div>
+    </div>
+
+    <!-- Accordéon profil citoyen -->
+    <div class="accordion" id="accordionProfil">
+      <div class="accordion-header" onclick="toggleAccordion('accordionProfil')">
+        <span class="accordion-label">🧠 Votre profil citoyen</span>
+        <span class="accordion-chevron open" id="chevProfil">▼</span>
+      </div>
+      <div class="accordion-body open" id="bodyProfil">
+        <div class="accordion-inner">
+          <div class="psycho-traits" id="psychoTraits"></div>
+          <div class="psycho-desc" id="psychoDesc"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Thèmes scroll horizontal -->
+    <div class="themes-wrap">
+      <div class="themes-label">📊 Par thème</div>
+      <div class="themes-scroll" id="themesGrid"></div>
+    </div>
+
+    <!-- Message -->
+    <div class="message-card">
+      <div class="message-card-title">💬 Ce que ça dit de vous</div>
+      <div class="message-card-text" id="messageText"></div>
+    </div>
+
+    <!-- Réunion publique — mise en avant -->
+    <div class="reunion-card">
+      <div class="reunion-icon">📅</div>
+      <div>
+        <div class="reunion-title">Grande réunion publique</div>
+        <div class="reunion-date">Mercredi 11 mars 2026 à 20h</div>
+        <div class="reunion-lieu">Salle de la Gilquinière — Parc de la mairie</div>
+      </div>
+    </div>
+
+    <!-- CTA programme + refaire -->
+    <div class="cta-group">
+      <a href="https://www.arnaudcollot.fr" target="_blank" class="btn-cta-primary">📋 Voir le programme complet</a>
+      <button class="btn-cta-secondary" onclick="restartQuiz()">🔄 Refaire le test</button>
+    </div>
+
+    <!-- Partage réseaux sociaux -->
+    <div class="share-block">
+      <div class="share-label">Partager ce test</div>
+      <div class="fb-suggest">
+        <div class="fb-suggest-label">💬 Message suggéré pour Facebook</div>
+        <div class="fb-suggest-text" id="fbSuggestText"></div>
+        <button class="fb-copy-btn" onclick="copyFbMsg()">📋 Copier le message</button>
+      </div>
+      <div class="share-buttons" id="shareButtons"></div>
+    </div>
+
+    <p class="result-footnote">🗳️ <strong>15 et 22 mars 2026</strong> — Élections municipales à Épinay-sur-Orge</p>
+  </div>
+</section>
+
+<script>
+// =============================================================
+// RÈGLE ABSOLUE DE SCORING
+// Chaque question retourne un score entre 0.0 et 1.0 INCLUS.
+// Le score global = moyenne arithmétique simple → toujours 0–100%.
+// =============================================================
+
+function clamp01(v) { return Math.max(0.0, Math.min(1.0, Number(v) || 0)); }
+
+// =============================================================
+// BANQUE DE QUESTIONS (25 questions)
+// =============================================================
+const BANK = [
+
+  // ---- SECURITE ----
+  { id:'s1', theme:'Sécurité', color:'#b71c1c', icon:'🚔', type:'choice',
+    text:"La nuit à Épinay, l'éclairage public est coupé pour économiser de l'énergie. Votre position ?",
+    context:"Situation actuelle : l'éclairage est éteint une partie de la nuit.",
+    choices:[
+      {t:"Bonne idée — l'écologie passe avant tout.", s:0.0},
+      {t:"Acceptable si cela n'augmente pas l'insécurité.", s:0.3},
+      {t:"Inacceptable — la sécurité des habitants prime.", s:1.0},
+      {t:"Mieux vaut des détecteurs de présence qu'une extinction totale.", s:0.5}
+    ], lipe:2,
+    fb:{g:{main:"✅ Accord avec LIPE : rétablir l'éclairage toute la nuit est une priorité absolue.", lipe:"LIPE prévoit de généraliser l'éclairage LED avec ajustement de l'intensité selon les zones — pour concilier sécurité des habitants et économies d'énergie."}, b:{main:"💡 Pour LIPE, la sécurité nocturne prime. L'éclairage LED avec intensité modulée permet de concilier économies et sécurité sans éteindre les rues."}, n:{main:"💡 LIPE prévoit aussi 70 nouvelles caméras reliées au commissariat et le renforcement des 'Voisins vigilants'."}}
+  },
+
+  { id:'s2', theme:'Sécurité', color:'#b71c1c', icon:'👮', type:'slider',
+    text:"Épinay n'a qu'un seul policier municipal. Combien faudrait-il selon vous ?",
+    context:"Glissez le curseur pour indiquer votre estimation.",
+    min:1, max:10, step:1, def:3, target:5, tol:2, unit:'policier(s)', labels:['1 (actuel)','10'],
+    fb:{e:"🎯 Accord parfait ! LIPE s'engage à passer de 1 à 5 policiers.", c:"✅ Proche de LIPE : 5 policiers armés, avec horaires élargis.", f:"💡 LIPE propose 5 policiers — 5× plus qu'aujourd'hui pour 11 000 habitants."}
+  },
+
+  { id:'s3', theme:'Sécurité', color:'#b71c1c', icon:'📷', type:'choice',
+    text:"Aucune nouvelle caméra de vidéosurveillance n'a été installée en 6 ans. Que faire ?",
+    context:"Cambriolages fréquents, points de deal actifs, vols de véhicules.",
+    choices:[
+      {t:"Installer massivement 70 caméras reliées au commissariat.", s:1.0},
+      {t:"Quelques caméras aux endroits les plus dangereux.", s:0.5},
+      {t:"Miser uniquement sur la prévention, pas les caméras.", s:0.1},
+      {t:"Trop coûteux, d'autres priorités sont plus urgentes.", s:0.0}
+    ], lipe:0,
+    fb:{g:{main:"✅ LIPE prévoit exactement 70 nouvelles caméras reliées au commissariat."}, b:{main:"💡 LIPE combine prévention ET vidéosurveillance — les deux sont complémentaires."}, n:{main:"💡 La prévention dans les écoles et les 'Voisins vigilants' accompagnent les caméras."}}
+  },
+
+  // ---- URBANISME ----
+  { id:'u1', theme:'Urbanisme', color:'#e65100', icon:'🏗️', type:'choice',
+    text:"1 200 logements construits en 6 ans à Épinay, sans anticiper les équipements. Votre réaction ?",
+    context:"Écoles surchargées, voiries saturées, pas de nouveaux médecins.",
+    choices:[
+      {t:"Bien — Épinay doit se développer.", s:0.0},
+      {t:"Trop vite, sans anticiper écoles, médecins et routes.", s:1.0},
+      {t:"Il faut construire encore plus, surtout du logement social.", s:0.1},
+      {t:"La densification est inévitable en Île-de-France.", s:0.3}
+    ], lipe:1,
+    fb:{g:{main:"✅ C'est le credo d'Arnaud Collot : les équipements AVANT les logements."}, b:{main:"💡 LIPE veut modifier le PLU pour réduire de moitié les 250 logements prévus en centre-ville."}, n:{main:"💡 Une pause est nécessaire pour reprendre en main les projets et garantir la qualité architecturale."}}
+  },
+
+  { id:'u2', theme:'Urbanisme', color:'#e65100', icon:'🏘️', type:'choice',
+    text:"Le PLU prévoit des immeubles plus hauts en centre-ville. Votre position ?",
+    context:"Certains immeubles monteraient d'un étage, créant un effet 'couloir de béton'.",
+    choices:[
+      {t:"Pour — Épinay a besoin de logements en hauteur.", s:0.0},
+      {t:"Contre — préserver le caractère village d'Épinay.", s:1.0},
+      {t:"Acceptable si l'architecture est soignée.", s:0.35},
+      {t:"Pour uniquement pour des logements étudiants.", s:0.55}
+    ], lipe:1,
+    fb:{g:{main:"✅ LIPE veut préserver l'esprit village et éviter l'effet couloir de béton."}, b:{main:"💡 LIPE veut interdire les immeubles en zone pavillonnaire et réduire la densification du centre."}, n:{main:"💡 LIPE favorise les logements étudiants (T12, RER C) mais en préservant la qualité architecturale."}}
+  },
+
+  { id:'u3', theme:'Urbanisme', color:'#e65100', icon:'🏚️', type:'choice',
+    text:"66% des logements du quartier de la gare sont sociaux. Est-ce problématique ?",
+    context:"Le taux légal SRU est de 25%. La commune atteint 26% — seuil légal dépassé.",
+    choices:[
+      {t:"Non, il faut encore plus de mixité partout.", s:0.0},
+      {t:"Oui, cette concentration crée des déséquilibres.", s:1.0},
+      {t:"Ce n'est pas à la mairie de gérer, c'est l'affaire de l'État.", s:0.1},
+      {t:"Oui, il faut rééquilibrer avec des logements intermédiaires.", s:0.8}
+    ], lipe:1,
+    fb:{g:{main:"✅ LIPE veut stopper la concentration et garantir un vrai parcours résidentiel."}, b:{main:"💡 La commune a un rôle clé pour garantir la mixité sociale réelle."}, n:{main:"💡 LIPE prévoit l'aménagement complet du quartier Rossays : voiries, espaces verts, aires de jeux."}}
+  },
+
+  // ---- FINANCES ----
+  { id:'f1', theme:'Finances', color:'#1565c0', icon:'💶', type:'slider',
+    text:"La taxe foncière a bondi de +26,65% depuis 2020 — record en Essonne. Quelle hausse vous semblait acceptable ?",
+    context:"Glissez pour indiquer votre seuil d'acceptabilité.",
+    min:0, max:30, step:1, def:5, target:0, tol:5, unit:'%', labels:['0 % (gel)','+30 %'],
+    fb:{e:"🎯 Accord parfait ! LIPE s'engage à aucune hausse d'impôt non justifiée.", c:"✅ Proche de LIPE : toute hausse doit être expliquée et concertée.", f:"💡 LIPE veut un audit complet et un retour à un endettement maîtrisé."}
+  },
+
+  { id:'f2', theme:'Finances', color:'#1565c0', icon:'🏦', type:'choice',
+    text:"La dette communale est passée de 8 à 13 M€ en 5 ans. Quelle priorité ?",
+    context:"La commune a aussi perdu 8 M€ lors de ventes immobilières bradées.",
+    choices:[
+      {t:"Emprunter davantage pour investir dans la ville.", s:0.0},
+      {t:"Commander un audit indépendant et stabiliser la dette.", s:1.0},
+      {t:"Augmenter les impôts locaux pour rembourser.", s:0.1},
+      {t:"Vendre d'autres biens communaux.", s:0.05}
+    ], lipe:1,
+    fb:{g:{main:"✅ C'est exactement ce que propose LIPE : saisir la Chambre Régionale des Comptes pour un audit."}, b:{main:"💡 LIPE refuse d'aggraver la situation : audit d'abord, puis mobilisation des subventions."}, n:{main:"💡 LIPE mobilisera Région, Département et Agglo Paris-Saclay sans s'endetter davantage."}}
+  },
+
+  // ---- ECOLES ----
+  { id:'e1', theme:'Écoles', color:'#bf360c', icon:'🏫', type:'choice',
+    text:"La mairie veut fermer l'école maternelle des Templiers pour regrouper les effectifs. Votre avis ?",
+    context:"Les écoles existantes sont déjà surchargées, avec des préfabriqués dans les cours.",
+    choices:[
+      {t:"La fermer si les chiffres le justifient.", s:0.0},
+      {t:"La maintenir absolument — les enfants ont besoin de proximité.", s:1.0},
+      {t:"Fusionner les classes mais garder le bâtiment ouvert.", s:0.5},
+      {t:"Attendre le nouveau groupe scolaire avant de décider.", s:0.65}
+    ], lipe:1,
+    fb:{g:{main:"✅ Maintenir les Templiers est l'une des 15 priorités absolues de LIPE."}, b:{main:"💡 Pour LIPE, fermer une école quand la ville grandit est une aberration."}, n:{main:"💡 LIPE veut construire le nouveau groupe scolaire ET maintenir les Templiers."}}
+  },
+
+  { id:'e2', theme:'Écoles', color:'#bf360c', icon:'☀️', type:'choice',
+    text:"Les bâtiments scolaires sont mal isolés thermiquement. Quelle action est prioritaire ?",
+    context:"Les élèves souffrent de la chaleur en été dans des classes sans climatisation.",
+    choices:[
+      {t:"Rénovation thermique complète de l'école Albert Camus.", s:1.0},
+      {t:"Installer des stores et ventilateurs comme solution provisoire.", s:0.5},
+      {t:"Végétaliser les cours pour créer des îlots de fraîcheur.", s:0.65},
+      {t:"Ce n'est pas la priorité budgétaire.", s:0.0}
+    ], lipe:0,
+    fb:{g:{main:"✅ LIPE s'engage à rénover thermiquement l'école Albert Camus — c'est une priorité absolue."}, b:{main:"💡 LIPE prévoit rénovation thermique ET stores/brise-soleil/ventilateurs en attendant."}, n:{main:"💡 LIPE prévoit aussi la végétalisation des cours avec îlots de fraîcheur."}}
+  },
+
+  // ---- JEUNESSE ----
+  { id:'j1', theme:'Jeunesse', color:'#00695c', icon:'🎓', type:'choice', multi:true,
+    text:"Des jeunes traînent sur les parkings faute d'espaces adaptés. Quelle initiative serait la plus utile ?",
+    context:"Consommation de protoxyde d'azote (gaz hilarant) signalée.",
+    choices:[
+      {t:"Un local numérique avec accès à l'IA et ateliers.", s:1.0},
+      {t:"Un Conseil des jeunes pour les responsabiliser.", s:0.8},
+      {t:"Plus d'équipements sportifs (street workout, skate…).", s:0.7},
+      {t:"Des animations festives et culturelles.", s:0.4}
+    ], lipe:0,
+    fb:{g:{main:"✅ LIPE prévoit un local dédié au numérique et à l'IA pour les jeunes, un conseil des jeunes et un street workout."}, b:{main:"💡 LIPE combine toutes ces actions : Conseil des jeunes, local IA, street workout ET prévention."}, n:{main:"💡 L'engagement de LIPE est global : Conseil des jeunes, numérique, soutien scolaire, sport."}}
+  },
+
+  // ---- SENIORS ----
+  { id:'se1', theme:'Solidarité', color:'#6a1b9a', icon:'🤝', type:'choice',
+    text:"Le banquet annuel des séniors a été supprimé. Que faire ?",
+    context:"La commune doit retrouver une politique sociale digne pour ses aînés.",
+    choices:[
+      {t:"Rétablir le banquet OU le colis de Noël, au choix du résident.", s:1.0},
+      {t:"Ne pas rétablir — des dépenses non essentielles.", s:0.0},
+      {t:"Proposer uniquement des animations culturelles.", s:0.45},
+      {t:"Déléguer au secteur associatif.", s:0.2}
+    ], lipe:0,
+    fb:{g:{main:"✅ Accord total ! Réinstaurer le banquet des séniors est l'une des 15 priorités d'Arnaud Collot."}, b:{main:"💡 Lutter contre l'isolement des personnes âgées est un devoir municipal fondamental pour LIPE."}, n:{main:"💡 LIPE prévoit aussi un transport gratuit vers le foyer-restaurant et un Conseil des 'sages'."}}
+  },
+
+  { id:'se2', theme:'Solidarité', color:'#6a1b9a', icon:'🏠', type:'choice',
+    text:"La résidence séniors des Hauts Graviers est déficitaire et a de nombreux logements vacants. Que faire ?",
+    context:"Cette résidence est une ressource précieuse pour les personnes âgées d'Épinay.",
+    choices:[
+      {t:"La sauver en accueillant des étudiants à loyer réduit en échange de services.", s:1.0},
+      {t:"La fermer et orienter les résidents vers le privé.", s:0.0},
+      {t:"Augmenter les tarifs pour couvrir le déficit.", s:0.1},
+      {t:"La céder à un opérateur privé.", s:0.15}
+    ], lipe:0,
+    fb:{g:{main:"✅ C'est la solution innovante de LIPE : étudiants à loyer réduit en échange de services aux résidents."}, b:{main:"💡 LIPE refuse d'abandonner les aînés — la résidence des Hauts Graviers doit être sauvée."}, n:{main:"💡 LIPE prévoit aussi des animations sportives et culturelles adaptées aux séniors."}}
+  },
+
+  // ---- SANTE ----
+  { id:'sa1', theme:'Santé', color:'#1b5e20', icon:'🏥', type:'choice',
+    text:"Des centaines de Spinoliens cherchent un médecin traitant. Que faire ?",
+    context:"1 200 logements construits sans anticiper l'offre médicale.",
+    choices:[
+      {t:"Créer un second pôle médical et aider financièrement les médecins à s'installer.", s:1.0},
+      {t:"Ce n'est pas du ressort de la mairie.", s:0.0},
+      {t:"Développer la télémédecine pour pallier le manque.", s:0.4},
+      {t:"Attendre que le marché s'équilibre.", s:0.05}
+    ], lipe:0,
+    fb:{g:{main:"✅ LIPE prévoit un second pôle médical dans l'ancienne médiathèque, avec aide à l'installation."}, b:{main:"💡 La mairie a un rôle actif pour attirer des médecins. L'inaction n'est pas une option."}, n:{main:"💡 LIPE combine pôle médical, aide financière ET formation aux premiers secours pour tous."}}
+  },
+
+  // ---- CADRE DE VIE ----
+  { id:'c1', theme:'Cadre de vie', color:'#2e7d32', icon:'🌿', type:'choice',
+    text:"Le ramassage des déchets verts est passé d'hebdomadaire à tous les 15 jours, sans baisse de taxe. Votre position ?",
+    context:"La taxe foncière a augmenté de +26,65% sur la même période.",
+    choices:[
+      {t:"Normal, il faut faire des économies.", s:0.0},
+      {t:"Acceptable si un bac collectif est accessible.", s:0.3},
+      {t:"Inacceptable : on paie plus pour moins de services.", s:1.0},
+      {t:"Je préfère apporter mes déchets à la déchetterie.", s:0.2}
+    ], lipe:2,
+    fb:{g:{main:"✅ LIPE s'engage : rétablir le ramassage hebdomadaire des déchets verts en haute saison."}, b:{main:"💡 Réduire un service sans baisser les impôts est inacceptable pour LIPE."}, n:{main:"💡 LIPE prévoit aussi une nouvelle déchetterie avec ressourcerie."}}
+  },
+
+  { id:'c2', theme:'Cadre de vie', color:'#2e7d32', icon:'🌳', type:'slider', nopenalty:true,
+    text:"LIPE veut planter 500 arbres sur le mandat. Combien d'arbres vous semble un objectif raisonnable ?",
+    context:"Glissez pour indiquer votre objectif idéal.",
+    min:0, max:1000, step:50, def:200, target:500, tol:200, unit:'arbres', labels:['0','1 000'],
+    fb:{e:"🎯 Accord parfait ! 500 arbres sur le mandat — c'est exactement l'objectif LIPE.", c:"✅ Encore plus ambitieux que LIPE ! 500 arbres minimum sont prévus — chaque arbre planté compte.", f:"💡 LIPE s'engage à planter 500 arbres sur le mandat dans le cadre du projet 'Épinay ville fleurie'."}
+  },
+
+  { id:'c3', theme:'Cadre de vie', color:'#2e7d32', icon:'🧹', type:'choice', multi:true,
+    text:"Les trottoirs d'Épinay sont dégradés et peu entretenus. Quelle mesure est la plus urgente ?",
+    context:"De nombreux nids-de-poule et mauvaises herbes persistent toute l'année.",
+    choices:[
+      {t:"Créer une brigade 'Propreté Voirie' avec des jeunes Spinoliens le samedi.", s:0.8},
+      {t:"Rénover en priorité les trottoirs les plus dangereux.", s:1.0},
+      {t:"Sécuriser les passages piétons.", s:0.75},
+      {t:"Laisser les riverains s'occuper de l'entretien devant chez eux.", s:0.1}
+    ], lipe:1,
+    fb:{g:{main:"✅ LIPE s'engage à rénover en priorité les trottoirs dégradés pour plus de sécurité."}, b:{main:"💡 LIPE prévoit brigade propreté, rénovation des trottoirs ET sécurisation des passages piétons."}, n:{main:"💡 LIPE combine toutes ces actions dans une approche globale du cadre de vie."}}
+  },
+
+  // ---- PARTICIPATION CITOYENNE ----
+  { id:'p1', theme:'Démocratie locale', color:'#4527a0', icon:'🗣️', type:'choice',
+    text:"En 2024, le conseil municipal a délibéré sur 'la reconnaissance de l'État Palestinien'. Votre avis ?",
+    context:"Des décisions locales (zone 30, vélos libre-service) ont été prises sans concertation.",
+    choices:[
+      {t:"Bien — le conseil doit s'exprimer sur des sujets mondiaux.", s:0.0},
+      {t:"Le conseil doit se concentrer sur les sujets locaux : voirie, écoles, sécurité.", s:1.0},
+      {t:"Ça dépend — certains enjeux nationaux méritent débat.", s:0.35},
+      {t:"Je ne suis pas les conseils municipaux.", s:0.15}
+    ], lipe:1,
+    fb:{g:{main:"✅ LIPE : les délibérations doivent se limiter aux sujets spinoliens. Fin de l'instrumentalisation politique."}, b:{main:"💡 Les Spinoliens méritent un conseil centré sur leurs vraies préoccupations quotidiennes."}, n:{main:"💡 LIPE veut un conseil transparent, concerté, centré sur Épinay."}}
+  },
+
+  { id:'p2', theme:'Démocratie locale', color:'#4527a0', icon:'📱', type:'choice', multi:true,
+    text:"Quelle est la meilleure façon de faire participer les habitants aux décisions municipales ?",
+    context:"Actuellement, des courriers au maire restent sans réponse.",
+    choices:[
+      {t:"Des réunions de quartier régulières animées par les élus.", s:0.9},
+      {t:"Un budget participatif annuel géré par les habitants.", s:0.8},
+      {t:"Une application de signalement et d'information.", s:0.7},
+      {t:"Les élus sont là pour décider, pas les habitants.", s:0.0}
+    ], lipe:0,
+    fb:{g:{main:"✅ LIPE propose réunions 'J'invite mon Maire', visites de quartier ET budgets participatifs."}, b:{main:"💡 LIPE s'engage pour une démocratie locale réelle : concertation systématique sur tous les projets."}, n:{main:"💡 LIPE combine toutes ces approches : app, réunions, budget participatif, conseils de quartier."}}
+  },
+
+  // ---- COMMERCES ----
+  { id:'co1', theme:'Commerce', color:'#4e342e', icon:'🥩', type:'choice',
+    text:"Épinay n'a plus de boucherie en centre-ville. Que devrait faire la mairie pour en attirer une ?",
+    context:"De nombreux commerces de bouche ont disparu du centre-ville ces dernières années.",
+    choices:[
+      {t:"Acquérir un local, le mettre aux normes et proposer un loyer attractif à un boucher.", s:1.0},
+      {t:"Accorder une aide financière à l'installation sans intervenir sur les murs.", s:0.6},
+      {t:"Attendre qu'un commerçant se manifeste spontanément.", s:0.0},
+      {t:"Ce n'est pas le rôle de la mairie d'intervenir dans le commerce.", s:0.0}
+    ], lipe:0,
+    fb:{g:{main:"✅ C'est exactement le projet LIPE : acheter les murs, mettre aux normes et proposer un loyer attractif pour installer un boucher en centre-ville."}, b:{main:"💡 LIPE considère que la mairie doit jouer un rôle actif pour ramener des commerces de bouche en centre-ville — boucherie, fromagerie…"}, n:{main:"💡 LIPE prévoit aussi une aide à la rénovation des façades commerciales et des animations pour redynamiser le centre-ville."}}
+  },
+
+  // ---- MOBILITE ----
+  { id:'m1', theme:'Mobilité', color:'#1a5276', icon:'🚌', type:'choice',
+    text:"La zone 30 instaurée sans concertation est jugée inefficace. Que faut-il faire ?",
+    context:"Les routes sont saturées avec +1 200 logements construits. Stationnement insuffisant.",
+    choices:[
+      {t:"Repenser le plan de circulation complet et optimiser les mobilités douces.", s:1.0},
+      {t:"Supprimer la zone 30 — elle ralentit inutilement la circulation.", s:0.4},
+      {t:"La maintenir et ajouter des ralentisseurs.", s:0.2},
+      {t:"Construire un parking supplémentaire en centre-ville.", s:0.5}
+    ], lipe:0,
+    fb:{g:{main:"✅ LIPE veut repenser le plan de circulation complet, y compris la zone 30."}, b:{main:"💡 LIPE propose aussi d'optimiser le stationnement et de développer les pistes cyclables."}, n:{main:"💡 LIPE prévoit davantage de bornes électriques et un suivi du tramway T12 et du RER C."}}
+  },
+
+  // ---- SPORT & CULTURE ----
+  { id:'sp1', theme:'Sport & Culture', color:'#006064', icon:'⚽', type:'choice',
+    text:"Quel équipement sportif vous semble le plus urgent à rénover à Épinay ?",
+    context:"Le terrain de football, le skate park, les courts de tennis et le gymnase sont tous en attente de travaux.",
+    choices:[
+      {t:"⚽ Terrain de football (éclairage + passage en synthétique)", s:1.0},
+      {t:"🛹 Skate park (sol en très mauvais état)", s:0.85},
+      {t:"🎾 Courts de tennis (éclairage obsolète)", s:0.7},
+      {t:"🥋 Gymnase Mimoun + Dojo (vétusté générale)", s:0.7}
+    ], lipe:0,
+    fb:{g:{main:"✅ LIPE prévoit le passage du terrain de football en synthétique et la modernisation de l'éclairage.", lipe:"LIPE s'engage à rénover tous ces équipements sur le mandat, en commençant par le terrain de football et le skate park."}, b:{main:"💡 LIPE prévoit la rénovation de tous ces équipements — aucun n'est oublié."}, n:{main:"💡 LIPE prévoit la rénovation de tous ces équipements sur le mandat."}}
+  },
+
+  { id:'sp2', theme:'Sport & Culture', color:'#006064', icon:'🎭', type:'choice', multi:true,
+    text:"L'espace culturel d'Épinay est sous-exploité. Quelle transformation vous semblerait la plus utile ?",
+    context:"Les Spinoliens n'ont pas de tarifs préférentiels au théâtre de Longjumeau voisin.",
+    choices:[
+      {t:"Un tiers-lieu intergénérationnel : artistes, théâtre local, festival, cinéma.", s:1.0},
+      {t:"Des salles d'activités pour les associations.", s:0.75},
+      {t:"Le vendre ou louer pour renflouer les finances.", s:0.0},
+      {t:"Y installer des locaux administratifs municipaux.", s:0.05}
+    ], lipe:0,
+    fb:{g:{main:"✅ LIPE veut en faire un tiers-lieu vivant : résidence d'artistes, festival de musique, théâtre local."}, b:{main:"💡 LIPE prévoit aussi des salles d'activités pour les associations dans l'ancienne médiathèque."}, n:{main:"💡 LIPE combine : tiers-lieu culturel ET espaces associatifs dans l'ancienne médiathèque."}}
+  },
+
+  // ---- PETITE ENFANCE ----
+  { id:'pe1', theme:'Petite enfance', color:'#ad1457', icon:'👶', type:'choice',
+    text:"La crèche municipale est passée de 30 à seulement 6 assistantes maternelles. Que faire ?",
+    context:"Risque fort de fermeture de la crèche faute de personnel.",
+    choices:[
+      {t:"Recruter en urgence et créer un lieu d'accueil ouvert aux enfants de 0 à 6 ans et leurs parents.", s:1.0},
+      {t:"Laisser le secteur privé prendre le relais.", s:0.1},
+      {t:"Fusionner avec la crèche d'une commune voisine.", s:0.3},
+      {t:"Fermer si on ne trouve pas de personnel — trop coûteux.", s:0.0}
+    ], lipe:0,
+    fb:{g:{main:"✅ LIPE s'engage à sauver la crèche par des recrutements rapides ET créer un lieu d'accueil ouvert aux enfants de 0 à 6 ans et à leurs parents."}, b:{main:"💡 La petite enfance est une responsabilité municipale. Laisser les familles sans solution est inacceptable."}, n:{main:"💡 LIPE prévoit aussi des maisons d'assistantes maternelles et un kit bienvenue pour les nouveau-nés."}}
+  },
+
+  // ---- HANDICAP ----
+  { id:'h1', theme:'Inclusion', color:'#283593', icon:'♿', type:'choice',
+    text:"De nombreux trottoirs d'Épinay ne sont pas conformes aux normes PMR. Quelle priorité ?",
+    context:"L'inclusion des personnes handicapées est quasi absente de la gestion actuelle.",
+    choices:[
+      {t:"Un plan d'action PMR complet pour tous les trottoirs et bâtiments.", s:1.0},
+      {t:"Sécuriser uniquement les passages les plus fréquentés.", s:0.5},
+      {t:"Ce n'est pas urgent, d'autres sujets priment.", s:0.0},
+      {t:"Créer d'abord des espaces de jeux adaptés au handicap.", s:0.6}
+    ], lipe:0,
+    fb:{g:{main:"✅ LIPE prévoit un plan PMR complet : trottoirs, traversées piétonnes, bâtiments, jeux adaptés."}, b:{main:"💡 L'accessibilité est un droit fondamental qui ne peut pas attendre."}, n:{main:"💡 LIPE combine : PMR, jeux adaptés, partenariat IME de Sillery, journée dédiée au handicap."}}
+  }
+];
+
+// =============================================================
+// PROFILS PSYCHOLOGIQUES (6 profils, 0–100 %)
+// =============================================================
+const PROFILES = [
+  { min:88, max:100,
+    emoji:'🌟', title:'Le·La Spinolien·ne convaincu·e', badge:'Compatibilité exceptionnelle',
+    gaugeGrad:'linear-gradient(90deg,#1565c0,#f5a623)',
+    caption:'Vos valeurs et les priorités LIPE se rejoignent sur presque tous les points.',
+    traits:['Attaché·e au territoire','Sens du bien commun','Pragmatique','Engagé·e'], hl:'Alignement fort',
+    psycho:"Vous ne faites pas de politique pour la politique : vous voulez que votre ville fonctionne, que les services publics soient efficaces et que chaque euro d'impôt soit bien dépensé. Vous évaluez les projets sur leurs résultats concrets, pas sur leurs étiquettes. Arnaud Collot incarne exactement cette philosophie — 23 ans d'expérience municipale, opérationnel dès le premier jour.",
+    message:"Vous avez probablement déjà râlé, milité ou simplement souffert de ce qui ne fonctionne pas à Épinay. La liste LIPE est construite pour des personnes comme vous. Pourquoi ne pas aller encore plus loin en vous impliquant dans la dynamique ?"
+  },
+  { min:70, max:87,
+    emoji:'😊', title:'Le·La citoyen·ne proche de LIPE', badge:'Forte compatibilité',
+    gaugeGrad:'linear-gradient(90deg,#1565c0,#43a047)',
+    caption:"L'essentiel de vos préoccupations rejoint le programme LIPE. Quelques nuances, mais le fond est partagé.",
+    traits:['Pragmatique','Ancré·e localement','Exigeant·e','Ouvert·e au dialogue'], hl:'Vision partagée',
+    psycho:"Vous faites confiance aux faits plutôt qu'aux discours. Vous évaluez les propositions sur leur faisabilité et leurs effets sur votre quotidien. Vous n'êtes pas dogmatique : si une idée vient de gauche ou de droite, peu importe — ce qui compte c'est qu'elle améliore la vie à Épinay. Cette indépendance d'esprit est exactement ce que LIPE incarne.",
+    message:"Les quelques points de divergence méritent discussion. La grande réunion publique du 11 mars est précisément faite pour ça. Venez poser vos questions directement à Arnaud Collot et son équipe — sans filtre."
+  },
+  { min:55, max:69,
+    emoji:'🤔', title:'Le·La citoyen·ne nuancé·e', badge:'Compatibilité modérée',
+    gaugeGrad:'linear-gradient(90deg,#1565c0,#fb8c00)',
+    caption:'Vous partagez certaines préoccupations avec LIPE, mais avez des visions différentes sur plusieurs sujets.',
+    traits:['Indépendant·e','Curieux·se','Critique','Attentif·ve aux détails'], hl:'Regard critique',
+    psycho:"Vous ne vous laissez pas facilement convaincre, et c'est une qualité. Vous analysez les propositions avec recul, vous questionnez le financement et la faisabilité. Vous avez probablement été déçu·e par des promesses non tenues. LIPE comprend votre scepticisme — c'est exactement pourquoi elle propose un audit financier public et une transparence totale sur la gestion.",
+    message:"Le scepticisme est sain en politique. LIPE vous invite à venir challenger ses propositions lors du débat du 11 mars. Si elle ne peut pas vous convaincre en face à face, elle ne mérite pas votre vote — et elle le sait."
+  },
+  { min:40, max:54,
+    emoji:'🧐', title:'Le·La citoyen·ne indépendant·e', badge:'Compatibilité partielle',
+    gaugeGrad:'linear-gradient(90deg,#e65100,#fdd835)',
+    caption:'Vos priorités divergent souvent de celles de LIPE, même si des points de contact existent.',
+    traits:['Autonome','Idéaliste','Exigeant·e','Non-aligné·e politiquement'], hl:'Libre penseur·se',
+    psycho:"Vous avez des convictions fortes que vous ne bradez pas facilement. Vous cherchez peut-être quelque chose que vous ne trouvez pas dans les programmes habituels : plus de radicalité sur certains sujets, une approche plus sociale ou plus libérale. LIPE assume ses choix — elle est de centre-droit, indépendante, et centrée sur l'efficacité locale.",
+    message:"La divergence de vues est la richesse du débat démocratique. LIPE vous invite à consulter le programme détaillé sur arnaudcollot.fr — peut-être y trouverez-vous plus de points communs que vous ne le pensez."
+  },
+  { min:20, max:39,
+    emoji:'💬', title:'Le·La citoyen·ne en désaccord', badge:'Faible compatibilité',
+    gaugeGrad:'linear-gradient(90deg,#c62828,#e65100)',
+    caption:'Vos visions divergent significativement du programme LIPE sur la majorité des sujets.',
+    traits:['Visionnaire','Alternatif·ve','Engagé·e autrement','Convaincu·e'], hl:'Vision différente',
+    psycho:"Vous avez une vision claire de ce que devrait être Épinay, et elle est probablement assez éloignée du programme LIPE. Vous accordez peut-être plus d'importance à la solidarité, à l'écologie radicale ou à un modèle de développement différent. C'est tout à fait légitime. La démocratie a besoin de toutes les sensibilités.",
+    message:"Le désaccord est une forme de participation citoyenne. Si vous n'êtes pas convaincu·e par LIPE, nous vous encourageons quand même à voter le 15 mars — votre voix compte, quelle que soit votre sensibilité."
+  },
+  { min:0, max:19,
+    emoji:'🌍', title:'Le·La citoyen·ne en opposition', badge:'Très faible compatibilité',
+    gaugeGrad:'linear-gradient(90deg,#880e4f,#c62828)',
+    caption:'Vos convictions et le programme LIPE sont opposés sur presque tous les sujets.',
+    traits:['Convictions fortes','Alternative assumée','Militant·e','Cohérent·e'], hl:'Opposition nette',
+    psycho:"Vous avez des convictions très claires qui vous éloignent du projet LIPE. Vous êtes probablement engagé·e dans une autre sensibilité politique et vous défendez une vision d'Épinay radicalement différente. C'est votre droit le plus fondamental, et nous le respectons pleinement.",
+    message:"La démocratie locale a besoin de toutes les voix. Même si nos programmes s'opposent, nous vous encourageons à vous exprimer lors des élections du 15 mars. Épinay appartient à tous ses habitants — sans exception."
+  }
+];
+
+// =============================================================
+// STATE
+// =============================================================
+const NB_Q = 12;
+let activeQ = [], curQ = 0, results = [];
+
+// =============================================================
+// UTILS
+// =============================================================
+function shuffle(a) {
+  const b = [...a];
+  for (let i = b.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [b[i], b[j]] = [b[j], b[i]];
+  }
+  return b;
+}
+function showScreen(id) {
+  ['screen-intro','screen-quiz','screen-result'].forEach(s => {
+    document.getElementById(s).style.display = s === id ? 'block' : 'none';
+  });
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function setProgress(n, total) {
+  document.getElementById('progressBar').style.width = (n / total * 100) + '%';
+}
+
+// =============================================================
+// START — sélection équilibrée par thèmes
+// =============================================================
+function startQuiz() {
+  // Regrouper par thème, piocher 1 par thème puis compléter
+  const byTheme = {};
+  BANK.forEach(q => { if (!byTheme[q.theme]) byTheme[q.theme] = []; byTheme[q.theme].push(q); });
+  const picked = new Set();
+  const sel = [];
+  Object.values(byTheme).forEach(group => {
+    const q = shuffle(group)[0];
+    sel.push(q);
+    picked.add(q.id);
+  });
+  const rest = shuffle(BANK.filter(q => !picked.has(q.id)));
+  const extra = rest.slice(0, Math.max(0, NB_Q - sel.length));
+  activeQ = shuffle([...sel, ...extra]).slice(0, NB_Q);
+  curQ = 0; results = [];
+  showScreen('screen-quiz');
+  renderQ();
+}
+
+// =============================================================
+// RENDER
+// =============================================================
+function renderQ() {
+  setProgress(curQ, activeQ.length);
+  const q = activeQ[curQ];
+  document.getElementById('qCounter').textContent = `Question ${curQ + 1} / ${activeQ.length}`;
+  document.getElementById('qIcon').textContent = q.icon;
+  if (q.type === 'slider') {
+    document.getElementById('qTypeLabel').textContent = 'Curseur';
+    document.getElementById('qTypeBadge').style.display = 'inline-flex';
+  } else if (q.multi) {
+    document.getElementById('qTypeLabel').textContent = 'Plusieurs réponses possibles';
+    document.getElementById('qTypeBadge').style.display = 'inline-flex';
+  } else {
+    document.getElementById('qTypeBadge').style.display = 'none';
+  }
+  document.getElementById('qText').textContent = q.text;
+  document.getElementById('qContext').textContent = q.context || '';
+  const zone = document.getElementById('qAnswerZone');
+  zone.innerHTML = '';
+  const fb = document.getElementById('feedbackBubble');
+  fb.style.display = 'none'; fb.className = 'feedback-bubble';
+  const btn = document.getElementById('btnNext');
+  btn.style.display = 'none';
+  btn.textContent = curQ < activeQ.length - 1 ? 'Question suivante →' : 'Voir mes résultats →';
+  if (q.type === 'choice') buildChoice(q, zone);
+  else if (q.type === 'slider') buildSlider(q, zone);
+}
+
+// =============================================================
+// CHOICE
+// =============================================================
+function buildChoice(q, zone) {
+  const wrap = document.createElement('div');
+  wrap.className = 'choices';
+  const LETTERS = ['A','B','C','D'];
+
+  if (q.multi) {
+    // ── MODE MULTI-SELECT ──────────────────────────────────────
+    const selected = new Set();
+    q.choices.forEach((c, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'choice-btn multi-mode';
+      btn.innerHTML = `<span class="choice-letter">${LETTERS[i]}</span><span style="flex:1">${c.t}</span>`;
+      btn.onclick = () => {
+        if (wrap.dataset.done) return;
+        if (selected.has(i)) { selected.delete(i); btn.classList.remove('selected'); }
+        else { selected.add(i); btn.classList.add('selected'); }
+        validateBtn.disabled = selected.size === 0;
+      };
+      wrap.appendChild(btn);
+    });
+    const validateBtn = document.createElement('button');
+    validateBtn.className = 'btn-validate multi-validate-wrap';
+    validateBtn.textContent = 'Valider mes choix';
+    validateBtn.disabled = true;
+    validateBtn.onclick = () => {
+      if (wrap.dataset.done) return;
+      wrap.dataset.done = '1';
+      validateBtn.disabled = true;
+      // Score = moyenne des réponses sélectionnées
+      let sum = 0;
+      selected.forEach(i => { sum += q.choices[i].s; });
+      const raw = clamp01(sum / selected.size);
+      results.push({score: raw, theme: q.theme, color: q.color});
+      // Colorer toutes les réponses
+      wrap.querySelectorAll('.choice-btn').forEach((b, j) => {
+        b.classList.add('disabled');
+        const sj = q.choices[j].s;
+        if (j === q.lipe) {
+          b.classList.add('correct');
+        } else if (selected.has(j)) {
+          if (sj >= 0.7) b.classList.add('also-good');
+          else b.classList.add('incorrect');
+        } else {
+          if (sj >= 0.7) b.classList.add('also-good');
+        }
+      });
+      const cls = raw >= 0.75 ? 'good' : raw <= 0.25 ? 'bad' : 'neutral';
+      const fbKey = raw >= 0.75 ? 'g' : raw <= 0.25 ? 'b' : 'n';
+      showFb(cls, q.fb[fbKey]);
+      document.getElementById('btnNext').style.display = 'inline-block';
+    };
+    zone.appendChild(wrap);
+    zone.appendChild(validateBtn);
+
+  } else {
+    // ── MODE CHOIX UNIQUE ──────────────────────────────────────
+    q.choices.forEach((c, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'choice-btn';
+      const lipeBadgeHtml = (i === q.lipe)
+        ? `<span class="lipe-badge" style="display:none">🏛️ Position LIPE</span>`
+        : '';
+      btn.innerHTML = `<span class="choice-letter">${LETTERS[i]}</span><span style="flex:1">${c.t}</span>${lipeBadgeHtml}`;
+      btn.onclick = () => {
+        if (wrap.dataset.done) return;
+        wrap.dataset.done = '1';
+        wrap.querySelectorAll('.choice-btn').forEach((b, j) => {
+          b.classList.add('disabled');
+          const sj = q.choices[j].s;
+          if (j === q.lipe) {
+            b.classList.add('correct');
+            const badge = b.querySelector('.lipe-badge');
+            if (badge) badge.style.display = 'inline-flex';
+          } else if (j === i) {
+            if (sj >= 0.7) b.classList.add('also-good');
+            else b.classList.add('incorrect');
+          } else {
+            if (sj >= 0.7) b.classList.add('also-good');
+          }
+        });
+        const raw = clamp01(c.s);
+        results.push({score: raw, theme: q.theme, color: q.color});
+        const cls = raw >= 0.85 ? 'good' : raw <= 0.2 ? 'bad' : 'neutral';
+        const fbKey = raw >= 0.85 ? 'g' : raw <= 0.2 ? 'b' : 'n';
+        showFb(cls, q.fb[fbKey]);
+        document.getElementById('btnNext').style.display = 'inline-block';
+      };
+      wrap.appendChild(btn);
+    });
+    zone.appendChild(wrap);
+  }
+}
+
+// =============================================================
+// SLIDER — score linéaire, strictement entre 0 et 1
+// =============================================================
+function buildSlider(q, zone) {
+  let val = q.def;
+  const wrap = document.createElement('div');
+  wrap.className = 'slider-wrapper';
+  const lbl = document.createElement('div');
+  lbl.className = 'slider-labels';
+  lbl.innerHTML = `<span>${q.labels[0]}</span><span>${q.labels[1]}</span>`;
+  const input = document.createElement('input');
+  input.type = 'range'; input.min = q.min; input.max = q.max; input.step = q.step; input.value = val;
+  setSliderBg(input, q);
+  const disp = document.createElement('div');
+  disp.className = 'slider-value-display';
+  disp.textContent = val + ' ' + q.unit;
+  const hint = document.createElement('div');
+  hint.className = 'slider-hint';
+  hint.textContent = 'Déplacez le curseur';
+  input.oninput = () => {
+    val = parseFloat(input.value);
+    disp.textContent = val + ' ' + q.unit;
+    setSliderBg(input, q);
+  };
+  const btnV = document.createElement('button');
+  btnV.className = 'btn-validate';
+  btnV.textContent = 'Valider';
+  btnV.onclick = () => {
+    input.disabled = true; btnV.disabled = true;
+    const diff = Math.abs(val - q.target);
+    const range = q.max - q.min;
+    let raw;
+    if (q.nopenalty && val >= q.target) {
+      // Pas de pénalité si ≥ cible — bonus si exact
+      raw = val === q.target ? 1.0 : 0.75;
+    } else {
+      raw = clamp01(1 - diff / (range / 2));
+    }
+    results.push({score:raw, theme:q.theme, color:q.color});
+    const cls = diff <= 1 ? 'good' : (q.nopenalty && val >= q.target) ? 'neutral' : diff <= q.tol ? 'neutral' : 'bad';
+    const txt = diff <= 1 ? q.fb.e : (q.nopenalty && val >= q.target) ? q.fb.c : diff <= q.tol ? q.fb.c : q.fb.f;
+    showFb(cls, txt);
+    document.getElementById('btnNext').style.display = 'inline-block';
+  };
+  wrap.appendChild(lbl); wrap.appendChild(input);
+  wrap.appendChild(disp); wrap.appendChild(hint); wrap.appendChild(btnV);
+  zone.appendChild(wrap);
+}
+function setSliderBg(input, q) {
+  const p = ((parseFloat(input.value) - q.min) / (q.max - q.min)) * 100;
+  input.style.background = `linear-gradient(to right,var(--bleu) 0%,var(--bleu) ${p}%,#e0ddd5 ${p}%,#e0ddd5 100%)`;
+}
+
+
+// =============================================================
+// FEEDBACK
+// =============================================================
+function showFb(cls, fbObj) {
+  const fb = document.getElementById('feedbackBubble');
+  fb.className = 'feedback-bubble ' + cls;
+  if (typeof fbObj === 'string') {
+    // Ranking feedback — check for LIPE sentences inline
+    fb.innerHTML = renderFbText(fbObj);
+  } else {
+    const text = fbObj.lipe ? fbObj.main : (fbObj.main || '');
+    const lipeText = fbObj.lipe || extractLipe(fbObj.main || '');
+    const mainText = fbObj.lipe ? fbObj.main : removeLipe(fbObj.main || '');
+    const lipeHtml = lipeText
+      ? `<div class="fb-lipe-block"><strong>🏛️ Ce que LIPE fera</strong>${lipeText}</div>`
+      : '';
+    fb.innerHTML = mainText + lipeHtml;
+  }
+  fb.style.display = 'block';
+}
+
+function extractLipe(text) {
+  // Extract sentences about what LIPE will do concretely
+  const sentences = text.split(/(?<=[.!]) +/);
+  return sentences
+    .filter(s => /^(LIPE |C'est exactement|C'est le credo|Arnaud Collot)/.test(s.trim()))
+    .join(' ').trim();
+}
+
+function removeLipe(text) {
+  const sentences = text.split(/(?<=[.!]) +/);
+  return sentences
+    .filter(s => !/^(LIPE |C'est exactement|C'est le credo|Arnaud Collot)/.test(s.trim()))
+    .join(' ').trim();
+}
+
+function renderFbText(text) {
+  const lipe = extractLipe(text);
+  const main = removeLipe(text);
+  const lipeHtml = lipe
+    ? `<div class="fb-lipe-block"><strong>🏛️ Ce que LIPE fera</strong>${lipe}</div>`
+    : '';
+  return main + lipeHtml;
+}
+
+// =============================================================
+// NEXT
+// =============================================================
+function nextQuestion() {
+  curQ++;
+  if (curQ >= activeQ.length) showResult();
+  else renderQ();
+}
+
+// =============================================================
+// RESULT — score = moyenne simple, garanti 0..100
+// =============================================================
+function showResult() {
+  setProgress(activeQ.length, activeQ.length);
+
+  // MOYENNE STRICTE — tous les scores sont clamp01 donc [0,1]
+  const sum = results.reduce((acc, r) => acc + r.score, 0);
+  const avg = results.length > 0 ? sum / results.length : 0;
+  // Arrondi entier entre 0 et 100, garanti
+  const pct = Math.min(100, Math.max(0, Math.round(avg * 100)));
+
+  // Thèmes
+  const tm = {};
+  results.forEach(r => {
+    if (!tm[r.theme]) tm[r.theme] = {sum:0, count:0, color:r.color};
+    tm[r.theme].sum += r.score;
+    tm[r.theme].count++;
+  });
+
+  const p = PROFILES.find(x => pct >= x.min && pct <= x.max) || PROFILES[PROFILES.length-1];
+
+  document.getElementById('resultEmoji').textContent = p.emoji;
+  document.getElementById('resultTitle').textContent = p.title;
+  document.getElementById('resultBadge').textContent = p.badge;
+  document.getElementById('gaugeCaption').textContent = p.caption;
+  document.getElementById('messageText').textContent = p.message;
+  document.getElementById('psychoDesc').textContent = p.psycho;
+
+  // Traits
+  const traitsEl = document.getElementById('psychoTraits');
+  traitsEl.innerHTML = '';
+  const hlSpan = document.createElement('span');
+  hlSpan.className = 'psycho-trait hl';
+  hlSpan.textContent = p.hl;
+  traitsEl.appendChild(hlSpan);
+  p.traits.forEach(t => {
+    const sp = document.createElement('span');
+    sp.className = 'psycho-trait';
+    sp.textContent = t;
+    traitsEl.appendChild(sp);
+  });
+
+  showScreen('screen-result');
+
+  // Jauge animée
+  document.getElementById('gaugeFill').style.background = p.gaugeGrad;
+  setTimeout(() => {
+    document.getElementById('gaugeFill').style.width = pct + '%';
+    animCount(document.getElementById('gaugePercent'), 0, pct, 1400);
+  }, 300);
+
+  // Thèmes
+  buildThemes(tm);
+  buildShareButtons(pct);
+}
+
+function animCount(el, from, to, ms) {
+  const t0 = performance.now();
+  (function step(now) {
+    const prog = Math.min((now - t0) / ms, 1);
+    const ease = 1 - Math.pow(1 - prog, 3);
+    el.innerHTML = Math.round(from + (to - from) * ease) + '<span>%</span>';
+    if (prog < 1) requestAnimationFrame(step);
+  })(t0);
+}
+
+function buildShareButtons(pct) {
+  const url = encodeURIComponent('https://quizz.arnaudcollot.com');
+  const fbMsg = `J'ai obtenu ${pct}% de compatibilité avec le programme d'Arnaud Collot à Épinay-sur-Orge ! 🗳️\nFaites le test : https://quizz.arnaudcollot.com`;
+  window._fbShareMsg = fbMsg; // stocké pour shareFacebook()
+  const txt = encodeURIComponent(`J'ai obtenu ${pct}% de compatibilité avec le programme d'Arnaud Collot à Épinay-sur-Orge ! Et vous ? 🗳️`);
+  const txtLong = encodeURIComponent(`J'ai fait le test de compatibilité avec le programme LIPE d'Arnaud Collot pour les municipales 2026 à Épinay-sur-Orge — j'obtiens ${pct}% ! Découvrez votre score :`);
+  const mailSubject = encodeURIComponent('Mon score de compatibilité avec Arnaud Collot');
+  const mailBody = encodeURIComponent(`Bonjour,\n\nJ'ai fait le test de compatibilité avec le programme LIPE d'Arnaud Collot pour les élections municipales 2026 à Épinay-sur-Orge.\n\nJ'obtiens ${pct}% de compatibilité !\n\nFaites le test vous aussi : https://quizz.arnaudcollot.com\n\nRéunion publique : mercredi 11 mars 2026 à 20h — Salle de la Gilquinière`);
+
+  // Afficher le message suggéré pour Facebook
+  const fbMsgEl = document.getElementById('fbSuggestText');
+  if (fbMsgEl) fbMsgEl.textContent = fbMsg;
+
+  const btns = document.getElementById('shareButtons');
+  btns.innerHTML = `
+    <button class="share-btn fb" onclick="shareFacebook()">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      Facebook
+    </button>
+    <a class="share-btn tw" href="https://twitter.com/intent/tweet?text=${txt}&url=${url}" target="_blank" rel="noopener">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      X
+    </a>
+    <a class="share-btn wa" href="https://wa.me/?text=${txtLong}%20${url}" target="_blank" rel="noopener">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp
+    </a>
+    <a class="share-btn mail" href="mailto:?subject=${mailSubject}&body=${mailBody}">
+      ✉️ Email
+    </a>`;
+}
+
+function buildThemes(tm) {
+  const grid = document.getElementById('themesGrid');
+  grid.innerHTML = '';
+  Object.entries(tm).forEach(([theme, data], i) => {
+    const pct = Math.min(100, Math.max(0, Math.round((data.sum / data.count) * 100)));
+    const card = document.createElement('div');
+    card.className = 'theme-card';
+    card.innerHTML = `
+      <div class="theme-card-label">${theme}</div>
+      <div class="theme-card-bar"><div class="theme-card-fill" id="tf${i}" style="background:${data.color}"></div></div>
+      <div class="theme-card-score" style="color:${data.color}">${pct}%</div>`;
+    grid.appendChild(card);
+    setTimeout(() => {
+      const el = document.getElementById('tf'+i);
+      if (el) el.style.width = pct + '%';
+    }, 650 + i * 110);
+  });
+}
+
+function toggleAccordion(id) {
+  const body = document.getElementById("body" + id.replace("accordion",""));
+  const chev = document.getElementById("chev" + id.replace("accordion",""));
+  const isOpen = body.classList.contains("open");
+  body.classList.toggle("open", !isOpen);
+  if(chev) chev.classList.toggle("open", !isOpen);
+}
+
+function shareFacebook() {
+  const msg = window._fbShareMsg || document.getElementById('fbSuggestText').textContent;
+  // 1. Copier le message dans le presse-papier
+  const doCopy = () => {
+    try {
+      navigator.clipboard.writeText(msg).catch(() => {});
+    } catch(e) {
+      try {
+        const ta = document.createElement('textarea');
+        ta.value = msg; ta.style.cssText = 'position:fixed;opacity:0';
+        document.body.appendChild(ta); ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+      } catch(e2) {}
+    }
+  };
+  doCopy();
+
+  // 2. Afficher le toast
+  showToast('✅ Message copié ! Collez-le dans Facebook.');
+
+  // 3. Ouvrir l'app Facebook (schéma fb://) avec fallback navigateur
+  setTimeout(() => {
+    // Tente d'ouvrir l'app native
+    const appUrl = 'fb://composer/';
+    const webUrl = 'https://www.facebook.com/';
+    // Sur iOS, fb:// ouvre l'app; si non installée, rien ne se passe
+    // On ouvre les deux avec un délai de sécurité
+    window.location.href = appUrl;
+    setTimeout(() => {
+      // Si l'app n'a pas ouvert (on est toujours là), ouvrir le web
+      window.open(webUrl, '_blank');
+    }, 1200);
+  }, 400); // léger délai pour que le toast soit visible
+}
+
+function showToast(msg) {
+  let toast = document.getElementById('shareToast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'shareToast';
+    toast.style.cssText = 'position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:#1a3a6e;color:#fff;padding:11px 20px;border-radius:99px;font-family:Syne,sans-serif;font-weight:700;font-size:0.82rem;z-index:9999;transition:transform 0.3s ease,opacity 0.3s ease;opacity:0;white-space:nowrap;box-shadow:0 4px 20px rgba(0,0,0,0.25)';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = msg;
+  toast.style.opacity = '1';
+  toast.style.transform = 'translateX(-50%) translateY(0)';
+  clearTimeout(window._toastTimer);
+  window._toastTimer = setTimeout(() => {
+    toast.style.opacity = '0';
+    toast.style.transform = 'translateX(-50%) translateY(80px)';
+  }, 3000);
+}
+
+function copyFbMsg() {
+  const txt = document.getElementById('fbSuggestText').textContent;
+  navigator.clipboard.writeText(txt).then(() => {
+    showToast('✅ Message copié dans le presse-papier !');
+    const btn = document.querySelector('.fb-copy-btn');
+    btn.textContent = '✅ Copié !';
+    setTimeout(() => { btn.textContent = '📋 Copier le message'; }, 2500);
+  }).catch(() => {
+    const ta = document.createElement('textarea');
+    ta.value = txt; ta.style.cssText = 'position:fixed;opacity:0';
+    document.body.appendChild(ta); ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    showToast('✅ Message copié dans le presse-papier !');
+    const btn = document.querySelector('.fb-copy-btn');
+    btn.textContent = '✅ Copié !';
+    setTimeout(() => { btn.textContent = '📋 Copier le message'; }, 2500);
+  });
+}
+
+function restartQuiz() { startQuiz(); }
+</script>
+</body>
+</html>
